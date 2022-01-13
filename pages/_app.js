@@ -13,12 +13,10 @@ function MyApp({ Component, pageProps }) {
       </Layout>
       <Script
         src="https://kit.fontawesome.com/f3b761f592.js"
-        strategy="lazyOnload"
         crossOrigin="anonymous"
       />
       <Script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        strategy="lazyOnload"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossOrigin="anonymous"
       />

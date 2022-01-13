@@ -3,7 +3,7 @@ import Head from "next/head";
 
 // Components
 import Navbar from "./Navbar";
-/* import Footer from "./Footer/Footer"; */
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -36,9 +36,8 @@ const Layout = ({ children }) => {
         <link rel="manifest" href="/manifest.json" />
       </Head>
       <Navbar />
-      asddsa
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };

@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light osahan-nav shadow-sm">
       <div className="container">
         <header
-          className="d-flex flex-wrap justify-content-center"
+          className="d-flex flex-wrap justify-content-between"
           style={{ width: "100%" }}
         >
           <Link href="/" passHref>
