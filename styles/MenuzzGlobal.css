@@ -32,6 +32,7 @@
 .IndexCity__City {
     position: absolute;
     bottom:0;
+    left:0;
     width:100%;
     text-align:left;
     border-radius:10px;
@@ -64,4 +65,18 @@
 
 .navbar-brand:hover {
     cursor: pointer;
+}
+
+.carousel-image-wrapper {
+    position: relative!important;
+}
+
+.carousel-image-wrapper span {
+    position: relative!important;
+}
+
+.carousel-image-img {
+    position: relative!important;
+    width: auto!important;
+    height: auto!important;
 }
