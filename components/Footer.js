@@ -76,7 +76,7 @@ const Footer = () => {
           <p>
             <small className="mt-0 mb-0">
               {" "}
-              Verzió: 3.0 - 2022.01.17. -{" "}
+              Verzió: 3.0 - 2022.03.01. -{" "}
               <Link href="/privacy">Adatvédelmi nyilatkozat</Link>
             </small>
           </p>

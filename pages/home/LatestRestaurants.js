@@ -19,7 +19,7 @@ const LatestRestaurants = ({ latestRestaurants }) => {
           <div className="item" key={index} style={{ padding: 10 }}>
             <div className="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
               <div className="carousel-image-wrapper">
-                <Link href={`/restaurant/${r.slug}`} passHref>
+                <Link href={`/etterem/${r.slug}`} passHref>
                   <Image
                     src={`${r.logo_file}`}
                     className="carousel-image-img img-fluid"
@@ -32,7 +32,7 @@ const LatestRestaurants = ({ latestRestaurants }) => {
                 <div className="list-card-body">
                   <h6 className="mb-1">
                     <Link
-                      href={`/restaurant/${r.slug}`}
+                      href={`/etterem/${r.slug}`}
                       className="text-black"
                       passHref
                     >

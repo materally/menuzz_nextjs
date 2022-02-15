@@ -24,6 +24,7 @@
     "react-owl-carousel": "^2.3.3",
     "react-select": "^5.2.1",
     "react-styled-components": "^0.1.11",
+    "styled-components": "^5.3.3",
     "webpack": "^5.68.0"
   },
   "devDependencies": {

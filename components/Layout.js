@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <Head>
         <meta
           name="description"
-          content="Ebédelnél valami finomat? Keress a városodban menüzős éttermet!"
+          content="Ebédelnél valami finomat? Keress a városodban menüzős éttermet! Menü rendelés, heti menü, napi menü."
         />
         <link rel="apple-touch-icon" href="/logo192.png" />
 
