@@ -64,7 +64,7 @@ export default function City({ restaurants }) {
     <div>
       <Head>
         <title>
-          {city} napi menü, menü rendelés {city}!
+          {city} napi menü, menü rendelés {city}
         </title>
         <meta
           name="description"
@@ -76,7 +76,7 @@ export default function City({ restaurants }) {
         />
         <meta
           property="og:title"
-          content={`${city} heti menü, ${city} napi menü, menü rendelés ${city}!`}
+          content={`${city} heti menü, ${city} napi menü, menü rendelés ${city}`}
         />
         <meta
           property="og:description"

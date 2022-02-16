@@ -49,9 +49,16 @@
     border-radius:10px;
 }
 
+.timeTableRow {
+    display: flex;
+    justify-content: space-between;
+}
+
 .openCloseTable {
     font-weight: bold;
     background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
 }
 
 .closedInTimeTable {
@@ -88,4 +95,27 @@
 
 .z-index-9999 {
     z-index: 9999!important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.thead-light {
+    background-color: #E9ECEF;
+}
+
+.table .thead-light th {
+    color: #495057!important;
+    background-color: #e9ecef;
+    font-size: 14px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+table > tbody > tr > td {
+    font-size: 14px;
 }

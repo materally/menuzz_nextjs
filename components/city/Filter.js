@@ -1,12 +1,12 @@
 import React from "react";
-import styled from "styled-components";
-
-// Components
 
 const Filter = (props) => {
   return (
     <div className="col-md-12">
-      <FilterDiv className="filters shadow-sm rounded bg-white mb-4 p-4 row">
+      <div
+        className="filters shadow-sm rounded bg-white mb-4 p-4 row"
+        style={{ alignItems: "center" }}
+      >
         <div className="col-lg-3 col-md-6 col-sm-12 custom-control text-center">
           <input
             type="text"
@@ -60,14 +60,10 @@ const Filter = (props) => {
             Házhozszállítás
           </label>
         </div>
-      </FilterDiv>{" "}
+      </div>{" "}
       {/* filters shadow-sm rounded bg-white mb-4 */}
     </div> /* col-md-3 */
   );
 };
-
-const FilterDiv = styled.div`
-  align-items: center;
-`;
 
 export default Filter;
