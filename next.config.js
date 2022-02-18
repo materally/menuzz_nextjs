@@ -3,9 +3,9 @@ const webpack = require("webpack");
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["menuzz.hu"],
+    //domains: ["menuzz.hu"],
     loader: "imgix",
-    path: "https://menuzz.hu/img/loading.jpg",
+    path: "",
   },
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.plugins.push(
