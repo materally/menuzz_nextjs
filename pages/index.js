@@ -11,8 +11,18 @@ export default function Home({ cities, popularCities, latestRestaurants }) {
         <title>Menüzz - Heti menü, napi menü a városodban!</title>
         <meta
           name="description"
-          content="Ebédelnél valami finomat? Keress a városodban menüzős éttermet!"
+          content={`Ebédelnél valami finomat? Keress a városodban menüzős éttermet! Napi menü Debrecen, heti menü Nyíregyháza, olcsó menü Miskolc, Szeged menü, menü rendelés Hajdúszoboszló`}
         />
+        <link rel="canonical" href={process.env.NEXT_PUBLIC_FRONTEND_URL} />
+        <meta
+          property="og:title"
+          content={`Menüzz - Heti menü, napi menü a városodban!`}
+        />
+        <meta
+          property="og:description"
+          content={`Ebédelnél valami finomat? Keress a városodban menüzős éttermet! Napi menü Debrecen, heti menü Nyíregyháza, olcsó menü Miskolc, Szeged menü, menü rendelés Hajdúszoboszló`}
+        />
+        <meta property="og:url" href={process.env.NEXT_PUBLIC_FRONTEND_URL} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero cities={cities} />
