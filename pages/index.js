@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Hero from "./home/Hero";
-import PopularCities from "./home/PopularCities";
-import LatestRestaurants from "./home/LatestRestaurants";
+import Hero from "../components/home/Hero";
+import PopularCities from "../components/home/PopularCities";
+import LatestRestaurants from "../components/home/LatestRestaurants";
 import API, { API_SECRET } from "../service/api";
 
 export default function Home({ cities, popularCities, latestRestaurants }) {
