@@ -83,7 +83,16 @@ const Footer = () => {
           <p>
             <small className="mt-0 mb-0">
               {" "}
-              Az esetleges elírásokért felelősséget nem vállalunk!
+              A menuzz.hu-n megjelenített adatok publikusan fellelhető, harmadik
+              felektől, prezentációs weboldalakról vagy egyéb szabadon
+              hozzáférhető forrásokból származnak. A Menüzz.hu nem vonható
+              felelősség alá és nem terheli semmilyen kötelezettség a
+              megjelenített információk helyességét, pontosságát,
+              megbízhatóságát vagy használhatóságát illetőleg. Az itt
+              megtekinthető logók, képek és szövegek a jogtulajdonosok és
+              harmadik felek tulajdonát képezik. Amennyiben bármilyen kérdése
+              vagy javaslata lenne ezeket illetőleg, úgy kérjük bátran vegye fel
+              a kapcsolatot velünk.
             </small>
           </p>
           <p>
